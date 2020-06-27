@@ -1,3 +1,5 @@
+//it's my first example of component
+
 import  React  from 'react';
 
 // function Greet(){
