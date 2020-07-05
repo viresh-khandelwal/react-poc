@@ -7,13 +7,24 @@ import  React  from 'react';
 //    return  <h1>{props.name} or what should I say {props.superHeroName} I am your big fan !</h1>
 // }
 
-const JusticeLeague = (props) => {
+// const JusticeLeague = (props) => {
+//    return  (
+//     <div>
+//         <h1>{props.name} or what should I say {props.superHeroName} I am your big fan !</h1>
+//         {props.children}
+//     </div>
+//    )
+// }
+
+const JusticeLeague = ({name,superHeroName,children}) => {
+   //const {name,superHeroName,children} = props
    return  (
     <div>
-        <h1>{props.name} or what should I say {props.superHeroName} I am your big fan !</h1>
-        {props.children}
+        <h1>{name} or what should I say {superHeroName} I am your big fan !</h1>
+        {children}
     </div>
    )
 }
+
 
 export default JusticeLeague
