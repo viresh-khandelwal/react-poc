@@ -7,13 +7,17 @@ import Greet from './components/Greet';
 import Flirt from './components/Flirt';
 import Hello from './components/Hello';
 import JusticeLeague from './components/justiceLeague';
-import Avengers from './components/avengers'
-import Message from './components/message'
-import Counter from './components/counter'
+import Avengers from './components/avengers';
+import Message from './components/message';
+import Counter from './components/counter';
+import EventHandler1 from './components/eventHandler1';
+import EventHandler2 from './components/eventHandler2';
 
 function App() {
   return (
     <div className="App">
+      <EventHandler1/>
+      <EventHandler2/>
       <Counter addValue="2"/>
       <Greet />
       <Flirt />
