@@ -13,10 +13,12 @@ import Counter from './components/counter';
 import EventHandler1 from './components/eventHandler1';
 import EventHandler2 from './components/eventHandler2';
 import EventBind from './components/eventBind';
+import Parentcomponent from './components/parentcomponent';
 
 function App() {
   return (
     <div className="App">
+      <Parentcomponent/>
       <EventBind/>
       <EventHandler1/>
       <EventHandler2/>
